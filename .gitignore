@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Build artifacts (embedded development)
+build/
+dist/
+*.o
+*.elf
+*.hex
+*.bin
+*.out
+*.map
+
+# Jupyter (if used later)
+.ipynb_checkpoints/
+
+# Git
+.gitattributes
