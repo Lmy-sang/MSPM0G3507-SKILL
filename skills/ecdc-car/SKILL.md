@@ -13,7 +13,7 @@ description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G
 - 核心板: 轮趣 WHEELTEC C07A V1.0/V1.1
 - 底板: S27F (S27F 与 S28A 内部走线相同，丝印不同)
 - 底盘: 差速二驱, TB6612 D153C 双路驱动带稳压版
-- IDE: Keil MDK v5.38a-5.41
+- IDE: Keil MDK v5.42
 - SDK: mspm0_sdk_2_04_00_06, SysConfig 1.23.1
 - 编程: TI DriverLib (DL_* API), 裸机 (nortos)
 
@@ -68,3 +68,4 @@ description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G
 3. 确认 App 层逻辑 → 和用户讨论状态机和策略
 4. 生成代码 → 遵循三层架构, App 只调用 Module 接口
 5. 验证 → 确保所有 GPIO/外设名来自 ti_msp_dl_config.h 宏定义
+

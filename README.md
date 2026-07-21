@@ -4,7 +4,7 @@
 
 [![MCU](https://img.shields.io/badge/MCU-MSPM0G3507-blue)](https://www.ti.com/product/MSPM0G3507)
 [![SDK](https://img.shields.io/badge/SDK-mspm0__sdk__2__04__00__06-green)](https://www.ti.com/tool/MSPM0-SDK)
-[![IDE](https://img.shields.io/badge/IDE-Keil%20MDK%20v5.38a--5.41-orange)](https://www.keil.com/)
+[![IDE](https://img.shields.io/badge/IDE-Keil%20MDK%20v5.42-orange)](https://www.keil.com/)
 [![K230](https://img.shields.io/badge/CoPro-K230__YAHBOOM-purple)](https://developer.canaan-creative.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -206,7 +206,7 @@ MSPM0G3507-SKILL/
 
 | 工具 | 下载地址 | 说明 |
 |------|---------|------|
-| Keil MDK | https://www.keil.com/ | v5.38a-5.41 |
+| Keil MDK | https://www.keil.com/ | v5.42 |
 | MSPM0 SDK | https://www.ti.com/tool/MSPM0-SDK | mspm0_sdk_2_04_00_06 |
 | SysConfig | TI 官方 | v1.23.1 |
 | CanMV IDE | 亚博智能提供 | K230 开发 |
@@ -274,6 +274,5 @@ MSPM0G3507-SKILL/
 
 ---
 
-全国大学生电子设计竞赛加油！如果对你有帮助请给 Star ⭐
-有问题欢迎提 Issue，或用 Codex 加载 Skill 直接提问。
+
 
