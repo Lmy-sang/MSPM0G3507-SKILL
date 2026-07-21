@@ -11,7 +11,7 @@ description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G
 
 - MCU: TI MSPM0G3507 (Cortex-M0+, 80MHz, 128KB Flash, 32KB SRAM)
 - 核心板: 轮趣 WHEELTEC C07A V1.0/V1.1
-- 底板: S28A (S28A 与 S28A 内部走线相同，丝印不同)
+- 底板: S28A (S28A（与 S27F 内部走线相同），丝印不同)
 - 底盘: 差速二驱, TB6612 D153C 双路驱动带稳压版
 - IDE: Keil MDK v5.42
 - SDK: mspm0_sdk_2_04_00_06, SysConfig 1.23.1
