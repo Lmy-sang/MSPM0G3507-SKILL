@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -50,5 +50,5 @@ dist/
 .codex/
 .codex-plugin/
 
-# Assets (generated images, etc.)
-assets/
+# Assets (skill assets are tracked)\n!skills/ecdc-car/assets/
+
