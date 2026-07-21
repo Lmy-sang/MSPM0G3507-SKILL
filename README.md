@@ -8,10 +8,7 @@
 [![K230](https://img.shields.io/badge/CoPro-K230__YAHBOOM-purple)](https://developer.canaan-creative.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-> **如果你第一次接触这个项目**，不要先啃全部代码。
-> **最省事的方法是直接用 Codex 加载 Skill**，它会根据你的实际接线生成正确的驱动代码。
-
----
+> ---
 
 ## 系统架构图
 
@@ -273,6 +270,7 @@ MSPM0G3507-SKILL/
 | DAP/CH9102 驱动 | -- | 是 (烧录) |
 
 ---
+
 
 
 
