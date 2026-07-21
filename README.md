@@ -1,6 +1,6 @@
 ﻿# MSPM0G3507 电赛智能小车开发套件
 
-> 基于 TI MSPM0G3507 (Cortex-M0+) + 嘉楠 K230 (RISC-V) 双芯架构的电赛控制类题目全栈开发方案。覆盖底盘运动控制、IMU 姿态解算、视觉追踪、蓝牙调参、舵机云台等完整功能链，所有代码均基于轮趣 C07A 核心板 + S27F 底板实机验证。
+> 基于 TI MSPM0G3507 (Cortex-M0+) + 嘉楠 K230 (RISC-V) 双芯架构的电赛控制类题目全栈开发方案。覆盖底盘运动控制、IMU 姿态解算、视觉追踪、蓝牙调参、步进云台等完整功能链，所有代码均基于轮趣 C07A 核心板 + S27F 底板实机验证。
 
 [![MCU](https://img.shields.io/badge/MCU-MSPM0G3507-blue)](https://www.ti.com/product/MSPM0G3507)
 [![SDK](https://img.shields.io/badge/SDK-mspm0__sdk__2__04__00__06-green)](https://www.ti.com/tool/MSPM0-SDK)
@@ -150,7 +150,7 @@ Project/
 | 左轮方向 | PA17, PA16 | GPIO | BIN1/BIN2 |
 | 右编码器 | PA25, PA26 | GPIO 中断 | 2倍频 |
 | 左编码器 | PB20, PB24 | GPIO 中断 | 2倍频 |
-| 舵机 PWM | PA8 | TIMG0 | 云台 |
+| 步进电机 (ZDT) | UART | Modbus RTU FOC | 云台 |
 
 ### 传感器与通信
 
@@ -273,6 +273,7 @@ MSPM0G3507-SKILL/
 | DAP/CH9102 驱动 | -- | 是 (烧录) |
 
 ---
+
 
 
 
