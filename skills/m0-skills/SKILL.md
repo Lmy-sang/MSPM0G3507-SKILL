@@ -1,17 +1,17 @@
----
-name: "m0-skills"
-description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G3507 + 轮趣 C07A 核心板 + S27F 底板 + TB6612 电机驱动 + 亚博 K230 视觉 + ZDT Modbus 步进 + MPU6050/HC-SR04/HC-05/HJ-DXJ8 八路灰度循线。基于 Keil MDK + SysConfig + TI DriverLib。当用户需要进行电赛小车底盘控制、电机 PID、K230 视觉通信、巡线控制、步进电机云台驱动、传感器读取、赛题方案设计时使用。
+﻿---
+name: m0-skills
+description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G3507 + 轮趣 C07A 核心板 + S28A 底板 + TB6612 电机驱动 + 亚博 K230 视觉 + ZDT Modbus 步进 + MPU6050/HC-SR04/HC-05/HJ-DXJ8 八路灰度循线。基于 Keil MDK + SysConfig + TI DriverLib。当用户需要进行电赛小车底盘控制、电机 PID、K230 视觉通信、巡线控制、步进电机云台驱动、传感器读取、赛题方案设计时使用。
 ---
 
 # m0-skills 电赛控制题小车技能
 
-使用 MSPM0G3507 + 轮趣 C07A 核心板 + S27F 底板的差速二驱小车开发。
+使用 MSPM0G3507 + 轮趣 C07A 核心板 + S28A 底板的差速二驱小车开发。
 
 ## 硬件平台
 
 - MCU: TI MSPM0G3507 (Cortex-M0+, 80MHz, 128KB Flash, 32KB SRAM)
 - 核心板: 轮趣 WHEELTEC C07A V1.0/V1.1
-- 底板: S27F (S27F 与 S28A 内部走线相同，丝印不同)
+- 底板: S28A (S28A 与 S27F 内部走线相同，丝印不同)
 - 底盘: 差速二驱, TB6612 D153C 双路驱动带稳压版
 - IDE: Keil MDK v5.42
 - SDK: mspm0_sdk_2_04_00_06, SysConfig 1.23.1
@@ -66,7 +66,7 @@ description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G
 
 | 需求 | 读取文件 | 内容 |
 |------|---------|------|
-| 引脚分配、接线排查 | references/hardware.md | S27F 完整引脚表 + 互斥约束 |
+| 引脚分配、接线排查 | references/hardware.md | S28A 完整引脚表 + 互斥约束 |
 | DriverLib API | references/driverlib.md | GPIO/Timer/UART/ADC/I2C/SysTick 速查 |
 | 编码器、PID、差速控制 | references/motor-control.md | TB6612 + 编码器中断 + 增量式 PI |
 | K230 视觉通信 | references/k230-comm.md | ASCII $...# 协议 + 17 种例程 ID |
@@ -83,3 +83,5 @@ description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G
 3. 确认 App 层逻辑 → 和用户讨论状态机和策略
 4. 生成代码 → 遵循三层架构, App 只调用 Module 接口
 5. 验证 → 确保所有 GPIO/外设名来自 ti_msp_dl_config.h 宏定义
+
+
