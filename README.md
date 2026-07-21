@@ -1,6 +1,6 @@
 ﻿# MSPM0G3507 电赛智能小车开发套件
 
-> 基于 TI MSPM0G3507 (Cortex-M0+) + 嘉楠 K230 (RISC-V) 双芯架构的电赛控制类题目全栈开发方案。覆盖底盘运动控制、IMU 姿态解算、视觉追踪、蓝牙调参、步进云台等完整功能链，所有代码均基于轮趣 C07A 核心板 + S27F 底板实机验证。
+> 基于 TI MSPM0G3507 (Cortex-M0+) + 嘉楠 K230 (RISC-V) 双芯架构的电赛控制类题目全栈开发方案。覆盖底盘运动控制、IMU 姿态解算、视觉追踪、蓝牙调参、步进云台等完整功能链，所有代码均基于轮趣 C07A 核心板 + S28A 底板实机验证。
 
 [![MCU](https://img.shields.io/badge/MCU-MSPM0G3507-blue)](https://www.ti.com/product/MSPM0G3507)
 [![SDK](https://img.shields.io/badge/SDK-mspm0__sdk__2__04__00__06-green)](https://www.ti.com/tool/MSPM0-SDK)
@@ -119,7 +119,7 @@ Project/
 | 组件 | 型号 | 规格 | 接口 | 状态 |
 |------|------|------|------|------|
 | 核心板 | 轮趣 C07A V1.X | MSPM0G3507, CH9102 USB-UART | -- | 已验证 |
-| 底板 | S27F | 与 S28A 内部走线相同 | -- | 已验证 |
+| 底板 | S28A | 与 S28A 内部走线相同 | -- | 已验证 |
 | 电机驱动 | 轮趣 D153C | TB6612FNG 双路带稳压版, 12V, STBY 已接 3.3V | TIMG6 PWM | 已验证 |
 | 编码电机 | 霍尔编码 | 13线, 2倍频=26, 30:1减速比 | GPIO 中断 | 已验证 |
 | IMU | MPU6050 | 6轴, DMP 姿态解算 200Hz | I2C (PA0/PA1) | 已验证 |
@@ -183,7 +183,7 @@ MSPM0G3507-SKILL/
 │       ├── SKILL.md                   -> Skill 入口 + 触发规则 + 模块速查表
 │       ├── agents/openai.yaml         -> UI 元数据
 │       ├── references/                -> 参考文档（按需加载）
-│       │   ├── hardware.md            -> S27F 完整引脚映射 + 互斥约束
+│       │   ├── hardware.md            -> S28A 完整引脚映射 + 互斥约束
 │       │   ├── driverlib.md           -> TI DriverLib API 速查
 │       │   ├── motor-control.md       -> TB6612 + 编码器 + PI 速度闭环
 │       │   ├── k230-comm.md           -> K230 ASCII 通信协议 ($...#)
