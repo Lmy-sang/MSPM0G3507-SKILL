@@ -93,8 +93,8 @@ Project/
 
 ## 先看你怎么用
 
-- **想用 AI 自动生成代码，不想记引脚和 API**：走 Skill 路线，用 Codex 加载 `skills/ecdc-car/`
-- **已经有电赛小车，想看现有代码怎么写**：直接看 `skills/ecdc-car/references/` 下的各模块文档
+- **想用 AI 自动生成代码，不想记引脚和 API**：走 Skill 路线，用 Codex 加载 `skills/m0-skills/`
+- **已经有电赛小车，想看现有代码怎么写**：直接看 `skills/m0-skills/references/` 下的各模块文档
 - **想从零搭建电赛小车**：按硬件平台 → 基础外设 → 传感器 → 算法控制的顺序逐步构建
 - **想基于 K230 做视觉追踪**：看 `references/k230-comm.md` + K230 例程代码
 
@@ -179,7 +179,7 @@ MSPM0G3507-SKILL/
 ├── .agents/                           -> Codex 元数据
 │
 ├── skills/                            -> Codex Skill 定义
-│   └── ecdc-car/
+│   └── m0-skills/
 │       ├── SKILL.md                   -> Skill 入口 + 触发规则 + 模块速查表
 │       ├── agents/openai.yaml         -> UI 元数据
 │       ├── references/                -> 参考文档（按需加载）

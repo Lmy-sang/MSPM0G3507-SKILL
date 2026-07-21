@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "电赛小车控制"
+  short_description: "电子设计竞赛 MSPM0G3507+C07A 差速小车控制"
+  default_prompt: "使用 $M0-skills 帮我根据比赛题目搭建小车控制代码"

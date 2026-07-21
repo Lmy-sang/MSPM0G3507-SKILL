@@ -50,5 +50,5 @@ dist/
 .codex/
 .codex-plugin/
 
-# Assets (skill assets are tracked)\n!skills/ecdc-car/assets/
+# Assets (skill assets are tracked)\n!skills/m0-skills/assets/
 

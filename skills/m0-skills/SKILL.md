@@ -1,9 +1,9 @@
-﻿---
-name: ecdc-car
+---
+name: "m0-skills"
 description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G3507 + 轮趣 C07A 核心板 + S27F 底板 + TB6612 电机驱动 + 亚博 K230 视觉 + ZDT Modbus 步进 + MPU6050/HC-SR04/HC-05/HJ-DXJ8 八路灰度循线。基于 Keil MDK + SysConfig + TI DriverLib。当用户需要进行电赛小车底盘控制、电机 PID、K230 视觉通信、巡线控制、步进电机云台驱动、传感器读取、赛题方案设计时使用。
 ---
 
-# ECDC-Car 电赛控制题小车技能
+# M0-Skills 电赛控制题小车技能
 
 使用 MSPM0G3507 + 轮趣 C07A 核心板 + S27F 底板的差速二驱小车开发。
 
@@ -83,5 +83,6 @@ description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G
 3. 确认 App 层逻辑 → 和用户讨论状态机和策略
 4. 生成代码 → 遵循三层架构, App 只调用 Module 接口
 5. 验证 → 确保所有 GPIO/外设名来自 ti_msp_dl_config.h 宏定义
+
 
 
