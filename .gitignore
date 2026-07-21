@@ -44,3 +44,11 @@ dist/
 
 # Git
 .gitattributes
+
+# Codex
+.agents/
+.codex/
+.codex-plugin/
+
+# Assets (generated images, etc.)
+assets/
