@@ -46,7 +46,7 @@ dist/
 .gitattributes
 
 # Codex
-.agents/
+# .agents/ (tracked for Codex metadata)
 .codex/
 .codex-plugin/
 
