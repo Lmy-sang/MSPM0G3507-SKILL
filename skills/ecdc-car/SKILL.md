@@ -19,6 +19,21 @@ description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G
 
 完整引脚映射和外设互斥约束见 [硬件参考](references/hardware.md)。
 
+
+## 新建工程模板
+
+`assets/keil-empty/` 是预配好的 Keil 空工程模板，已包含:
+- empty.syscfg (MSPM0G3507, SDK 2.04.00.06, SysConfig 1.23.1)
+- empty_LP_MSPM0G3507_nortos_keil.uvprojx (Keil 工程, 编译器和 SDK 路径已配好)
+- ti_msp_dl_config.c/h (SysConfig 生成的初始化代码)
+- mspm0g3507.sct (链接脚本) / startup_mspm0g350x_uvision.s (启动文件)
+
+初始化新工程时:
+1. 复制 assets/keil-empty/ 到目标目录
+2. 根据实际需求编写 empty.c (main), board.c/h, Hardware/ 下驱动模块
+3. 在 SysConfig 图形界面中修改 empty.syscfg 的引脚配置，重新生成 ti_msp_dl_config.c/h
+4. **不可手改 ti_msp_dl_config.c/h**，只能通过 SysConfig 修改
+
 ## 软件架构: BSP / Module / App
 
 代码按三层组织:
@@ -68,4 +83,5 @@ description: 电子设计竞赛控制题小车开发技能。适用于 TI MSPM0G
 3. 确认 App 层逻辑 → 和用户讨论状态机和策略
 4. 生成代码 → 遵循三层架构, App 只调用 Module 接口
 5. 验证 → 确保所有 GPIO/外设名来自 ti_msp_dl_config.h 宏定义
+
 
