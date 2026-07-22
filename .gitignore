@@ -29,6 +29,17 @@ desktop.ini
 # Logs
 *.log
 
+# Keil build artifacts
+Objects/
+Listings/
+*.uvguix.*
+*.bak
+*.dep
+*.crf
+*.htm
+*.build_log*
+*.iex
+
 # Build artifacts (embedded development)
 build/
 dist/
@@ -39,16 +50,18 @@ dist/
 *.out
 *.map
 
-# Jupyter (if used later)
+# Jupyter
 .ipynb_checkpoints/
 
 # Git
 .gitattributes
 
 # Codex
-# .agents/ (tracked for Codex metadata)
 .codex/
 .codex-plugin/
 
-# Assets (skill assets are tracked)\n!skills/m0-skills/assets/
-
+# Track skill assets (but ignore generated Keil template objects)
+skills/m0-skills/assets/
+!skills/m0-skills/assets/s28a-docs/
+!skills/m0-skills/assets/keil-empty/
+!skills/m0-skills/assets/keil-empty/**/*
